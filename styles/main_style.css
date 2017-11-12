@@ -1,7 +1,7 @@
 
 div.menu {
     /* when changing, change margin-left on li:hover div.dropdown-content  */
-    width: 1000px;
+    width: 900px;
     margin: auto;
 }
 
@@ -43,7 +43,7 @@ div.dropdown-content a {
 li:hover div.dropdown-content {
     position: absolute;
     background-color: #333;
-    margin-left: 50px;  
+    margin-left: 30px;  
     width: 250px;
     margin-top: 10px;
 }
