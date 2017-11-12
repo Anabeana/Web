@@ -1,0 +1,16 @@
+div.title_header {
+    text-align: center;
+}
+
+h1 {	
+    font-family:calibri; 
+    font-size: 50px;
+}
+h2 {	
+    font-family:calibri;
+    font-size: 28px; 
+}
+
+img.mySlides {
+    display: none;
+}
