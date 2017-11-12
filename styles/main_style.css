@@ -5,7 +5,7 @@ div.menu {
     margin: auto;
 }
 
-li:hover, a:hover {	
+div.links li:hover, a:hover {	
 	background-color: #8FBC8F;
 }
 
@@ -43,19 +43,22 @@ div.dropdown-content a {
 li:hover div.dropdown-content {
     position: absolute;
     background-color: #333;
-    margin-left: 30px;  
-    width: 250px;
+    margin-left: 0px;  
+    width: 300px;
     margin-top: 10px;
 }
 
 li:hover div.dropdown-content a {
     display: block;   
     padding: 10px 20px;
-    font-size: 80%; 
+    font-size: 70%; 
 }
 
 img {
    width : 100%;
 }
+
+
+
 
 /* details */
