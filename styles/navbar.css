@@ -1,0 +1,64 @@
+
+div.menu {
+    /* when changing, change margin-left on li:hover div.dropdown-content  */
+    width: 900px;
+    margin: auto;
+}
+
+div.links li:hover, a:hover {	
+	background-color: #8FBC8F;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+li a {
+    color: white;
+    text-decoration:none;
+	display: block;
+    text-align:center;
+}
+
+div.links ul {
+    list-style-type: none;
+	margin-bottom: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-size:180%;
+	font-family:calibri;
+}
+
+div.links ul li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+div.dropdown-content a {
+    display: none;
+}
+
+li:hover div.dropdown-content {
+    position: absolute;
+    background-color: #333;
+    margin-left: 0px;  
+    width: 300px;
+    margin-top: 10px;
+}
+
+li:hover div.dropdown-content a {
+    display: block;   
+    padding: 10px 20px;
+    font-size: 70%; 
+}
+
+img {
+   width : 100%;
+}
+
+
+
+
+/* details */

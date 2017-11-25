@@ -22,3 +22,28 @@ function carousel() {
     myIndex++;
     setTimeout(carousel, 2000); // Change image every 5 seconds
 }
+
+function moveGallery(moveSize) {
+    var images = document.getElementsByClassName("galleryImage");
+    var currIdx = -1;
+
+    for (i = 0; i < images.length; i++) {
+        if (images[i].style.display == "inline") {
+            currIdx = i;
+        }
+        images[i].style.display = "none";
+    }
+
+    currIdx += moveSize;
+    if (currIdx >= images.length) {
+        currIdx = 0;
+    }
+    if (currIdx < 0) {
+        currIdx = images.length - 1;
+    }
+
+    var current_node = images.item(currIdx);
+    if (current_node) {
+        current_node.style.display = "inline"
+    }
+}

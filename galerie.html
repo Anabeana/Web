@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	 <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles/navbar.css">
     <link rel="stylesheet" type="text/css" href="styles/pages.css">
     <script src="scripts/main.js" ></script>
@@ -24,8 +24,8 @@
                     <a href="javascript:void(0)">Řešená témata</a>
                     <div class="dropdown-content">
                         <a href="infekce.html">Vývoj leishmanií v přenašeči</a>
-						<a href="hlodavci.html">Vývoj leishmanií v hostiteli</a>
-						 <a href="slinari.html">Slinné proteiny flebotomů</a>
+                        <a href="hlodavci.html">Vývoj leishmanií v hostiteli</a>
+                        <a href="slinari.html">Slinné proteiny flebotomů</a>
                         <a href="#">Chlupaři</a>
                     </div>
                 </li>
@@ -39,16 +39,17 @@
             </ul>
         </div>
 
-        <div class="images">
-            <img class="mySlides" src="imgs/cyklus.JPG">
-            <img class="mySlides" src="imgs/kr.jpg">
-            <img class="mySlides" src="imgs/leis.jpg">
-            <img class="mySlides" src="imgs/sf.jpg">
-            <img class="mySlides" src="imgs/zlaza.jpg">
+        <div class="galerie">
+            <div class="buttons">
+                <button class="left" onclick="moveGallery(-1);" >&#10094;</button>
+                <button class="right" onclick="moveGallery(1);">&#10095;</button>
+            </div>
+            <img class="galleryImage" src="imgs/cyklus.JPG">
+            <img class="galleryImage" src="imgs/leis.jpg">
+            <img class="galleryImage" src="imgs/sf.jpg">
+            <img class="galleryImage" src="imgs/zlaza.jpg">
         </div>
     </div>
-    </div>
-
 </body>
 
 </html>
