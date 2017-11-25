@@ -57,8 +57,12 @@ div.galerie {
 	margin-top:10px;
 }
 
-div.galerie image {
+div.galerie img {
 	position: relative;
+	z-index: -1;
+}
+
+div.galerie img.hidden {
 	display: none;
 }
 
@@ -76,6 +80,7 @@ div.buttons button {
 	font-size: 20px;
 	text-align: center;
 	border-width: 0px;
+	z-index: 99;
 }
 
 div.buttons button:hover {

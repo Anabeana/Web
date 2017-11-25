@@ -38,6 +38,7 @@ div.links ul li {
 
 div.dropdown-content a {
     display: none;
+    z-index: 1;
 }
 
 li:hover div.dropdown-content {
