@@ -1,4 +1,3 @@
-<script>
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -8,12 +7,21 @@ function plusDivs(n) {
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+  var photos = document.getElementsByClassName("mySlides");
+  var titles = document.getElementsByClassName("picturetext").childnodes;
+  alert(titles)
+  if (n > photos.length) {
+	  slideIndex = 1
+	  }    
+	  
+  if (n < 1) {
+	  slideIndex = photos.length
+	}
+	
+  for (i = 0; i < photos.length; i++) {
+     photos[i].style.display = "none"; 
+	 titles[i].style.display = "none";
   }
-  x[slideIndex-1].style.display = "block";  
+  photos[slideIndex-1].style.display = "block";  
+  titles[slideIndex-1].style.display = "block";  
 }
-</script>

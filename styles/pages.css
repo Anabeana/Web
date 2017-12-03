@@ -54,39 +54,43 @@ img.mySlides {
 div.galerie {
 	margin:auto;
 	width:900px;
-	margin-top:10px;
-}
-
-div.galerie img {
-	position: relative;
-	z-index: -1;
-}
-
-div.galerie img.hidden {
-	display: none;
+	
 }
 
 div.buttons {
-	position: absolute;
-	padding-top: 270px;
-	width: 100%;
+	text-align:center;
+
 }
 
 div.buttons button {
-	width: 40px;
-	height: 40px;
-	background: grey;
-	padding: 0px;
-	font-size: 20px;
-	text-align: center;
-	border-width: 0px;
-	z-index: 99;
+	width:50px;
+	height:40px;
+	border: #8FBC8F;
+    background: lightgrey;
+    font-size: 170%;
+	text-align:center;
+	padding:0px;
 }
 
 div.buttons button:hover {
-	background: #8FBC8F;
+	background-color:#8FBC8F;
+	color:white;
 }
 
-button.right {
-	margin-left: 816px;
+div.tablefigures td {
+	width:50%;
 }
+	
+#picturetexts {
+	font-family:calibri;
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+

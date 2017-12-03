@@ -25,6 +25,7 @@ function carousel() {
 
 function moveGallery(moveSize) {
     var images = document.getElementsByClassName("galleryImage");
+	var titles = document.getElementById("picturetexts").getElementsByTagName('p');
     var currIdx = -1;
 
     for (i = 0; i < images.length; i++) {
@@ -32,6 +33,7 @@ function moveGallery(moveSize) {
             currIdx = i;
         }
         images[i].style.display = "none";
+		titles[i].style.display = "none";
     }
 
     currIdx += moveSize;
@@ -43,7 +45,11 @@ function moveGallery(moveSize) {
     }
 
     var current_node = images.item(currIdx);
+	var current_node_title = titles.item(currIdx);
     if (current_node) {
         current_node.style.display = "inline"
+    }
+	if (current_node_title) {
+        current_node_title.style.display = "inline"
     }
 }
