@@ -53,8 +53,15 @@ img.mySlides {
 
 div.galerie {
 	margin:auto;
-	width:900px;
-	
+	width:900px;	
+}
+
+div.galerie img {
+	display: none;
+}
+
+div#picturetexts p {
+	display: none;
 }
 
 div.buttons {

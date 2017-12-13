@@ -3,6 +3,8 @@ var myIndex = 0;
 window.onload = carousel;
 
 function carousel() {
+    moveGallery(1);
+    
     var i;
     var x = document.getElementsByClassName("mySlides");
 
